@@ -1,0 +1,101 @@
+header {
+    background-color: whitesmoke;
+}
+
+/* Div Cabeçalho */
+.container1 
+  {display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  text-align: center;
+  gap: 15px;
+  margin: 0 auto;   
+  padding: 20px 40px;} 
+
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin: 35px;}
+
+.container3 {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center; 
+text-align: center;
+gap: 15px;}
+   
+body 
+{font-family: "Roboto";
+font-weight: 300;
+font-style: normal;
+background-color: whitesmoke;}
+
+img 
+{width: 80%;  
+height: auto; 
+max-width: 80%; 
+/* Ajuste Proporcional */
+height: auto; 
+align-items: center;}
+
+.reduce-image {
+width: 50%; 
+}
+
+/* Imagens Conjunto */
+.gallery 
+
+{display: flex; 
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap; 
+gap: 50px;}
+
+/* Imagens Individual */
+.gallery img 
+
+{width: 600px; 
+height: auto;}
+
+/* Alterar Cor Navbar  */
+.navbar {background-color: black;}
+
+/* Alterar Espaço Itens */
+.navbar-nav {gap: 20px;}
+
+/* Formulário */
+.container4 
+{display: flex;
+justify-content: center; 
+align-items: center;}
+
+form 
+{padding: 2em;
+border: 1px solid black;
+border-radius: 1em;}
+
+/* Tabela */
+table {
+/* Unir Bordas*/
+border-collapse: collapse; 
+width: 90%;
+margin: 35px;}
+table, th, td 
+{border: 1px solid black;}
+
+th, td 
+{padding: 10px; /* Espaço Interno*/
+text-align: center; /* Alinhar*/}
+
+footer 
+{background-color: black;
+padding: 10px;
+text-align: center;
+color: whitesmoke;
+width: 100%;}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Cabeçalho -->
+<header>
+    <div class="container1">
+        <div id="element"><img class="reduce-image" src="img/logopandapreto.png" alt="Logomarca Banda Panda" ></div>
+        <div><h2>BANDA PANDA</h2></div>
+        <div><h>Som que abraça, ritmo que contagia!</h></div>
+    </div>  
+</header>
+
+<!-- Barra -->
+
+<main>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light" >
+
+       <button class="btn btn-light" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="sobrenos.html">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="agenda.html">Agenda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="contactos.html">Contactos</a>
+          </li>          
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Título e Conteúdo -->
+
+    <div class="container2">
+        <div>
+          <h3>Contactos</h3>
+        </div>
+      <br>
+        <div>
+          <ul><strong>E-mail:</strong> contato@bandapanda.pt</ul>
+          <ul><strong>Telefone:</strong> +351 912 345 678</ul>
+          <ul><strong>Morada:</strong> Rua dos Ursos, 123, Lisboa, Portugal</ul>
+        </div>
+    </div>  
+
+    <div class="container4">
+
+      <form action=" ">
+        <!-- <fieldset></fieldset> -->
+        
+          <div>
+            <legend>Pedido de Informações</legend>
+            <br>
+            <label for="form-assunto">Assunto:</label>
+            <select name="form-assunto" id="form-assunto">
+              <br>
+              <option value=" " disabled selected>Selecione uma opção</option>
+              <option value="form-assunto-orcamento">Orçamento</option>
+              <option value="form-assunto-outros">Outros</option>
+            </select>     
+          </div>
+            <div>
+              <label for="form-name">Nome:</label>
+              <input type="text" name="form-name" id="form-name" required/> 
+            </div>
+            <div>
+              <label for="form-mail">E-mail:</label>
+              <input type="email" name="form-email" id="form-email" placeholder="exemplo@exemplo.com">
+            </div>
+            <div>
+              <label for="form-mensagem">Mensagem:</label>
+              <textarea type="textarea" name="form-mensagem" id="form-mensagem" cols="30" rows="3"></textarea>
+            </div>
+            <div>
+              <label for="form-avaliacao">Avalie o Site:</label>
+              
+              <input type="radio" name="form-avaliacao" id="form-avaliacao-bom">Bom
+              <input type="radio" name="form-avaliacao" id="form-avaliacao-razoavel">Razoável
+              <input type="radio" name="form-avaliacao" id="form-avaliacao-mau">Mau
+            </div>
+            <div class="button">
+              <button type="reset">Limpar</button>
+              <button type="submit">Submeter</button>
+            </div>      
+          
+          </form>
+    </div>
+ 
+       
+<br> 
+    
+</main>
+<!-- Rodapé -->
+<footer>
+  <p>Desenvolvido por BRUNO FRANÇA</p>
+  <p>Com o apoio de CESAE DIGITAL</p>
+</footer>
+
+</body>
+
+
+
+
+  
